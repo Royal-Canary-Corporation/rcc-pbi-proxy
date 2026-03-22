@@ -1,0 +1,5 @@
+{
+  "name": "rcc-pbi-proxy",
+  "version": "1.0.0",
+  "description": "Power BI embed token proxy for RCC Dashboard"
+}

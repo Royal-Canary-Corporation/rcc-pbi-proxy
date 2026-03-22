@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/token.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/token",
+      "dest": "/api/token.js"
+    }
+  ]
+}
