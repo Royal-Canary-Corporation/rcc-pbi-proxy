@@ -69,7 +69,7 @@ module.exports = async (req, res) => {
     );
 
     if (embedRes.status !== 200) {
-      return res.status(502).json({ error: 'Embed token failed', detail: embedRes.body });
+      return res.status(502).json({ error: 'Embed token failed', httpStatus: embedRes.status, detail: embedRes.body });
     }
 
     return res.status(200).json({
